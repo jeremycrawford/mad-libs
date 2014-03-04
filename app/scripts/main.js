@@ -4,12 +4,14 @@ $("#story").hide();
 
 // event handler
 $("#btn-click").click(function() {
-  $(".person").empty().append($("input.person").val());
-  $(".adjective").empty().append($("input.adjective").val());
-  $(".noun").empty().append($("input.noun").val());
-  $(".insect").empty().append($("input.insect").val());
-  $(".noun2").empty().append($("input.noun2").val());
-  $(".verb").empty().append($("input.verb").val());
+  $(".adjective1").empty().append($("input.adjective1").val());
+  $(".adjective2").empty().append($("input.adjective2").val());
+  $(".adjective3").empty().append($("input.adjective3").val());
+  $(".adjective4").empty().append($("input.adjective4").val());
+  $(".adjective5").empty().append($("input.adjective5").val());
+  $(".adjective6").empty().append($("input.adjective6").val());
+  $(".adverb").empty().append($("input.adverb").val());
+  $(".plural-noun").empty().append($("input.plural-noun").val());
 
 $("#story").show();
 
